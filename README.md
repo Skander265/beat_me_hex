@@ -4,6 +4,8 @@ in a hex game your goal is to connect the sides assigned to you in a 11x11 board
 
 this is a school project where i had to write an ai agent. wanted to put it on my github so i wrapped it in a streamlit app and added the board logic/state so you can actually play against it.
 
+ai_agent.py: the ai written for the (minimax + alpha beta pruning). It uses iterative deepening, Zobrist hashing for caching, beam search for pruning, and Dijkstra's algorithm to calculate the shortest path to victory.
+
 how to run:
 
 pip install streamlit 
